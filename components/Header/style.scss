@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  background: $color-primary-dark;
+  height: 320px;
+}
+
+h2, h4, h5 {
+  color: $font-light;
+  font-family: "Helvetica Neue";
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  font-size: 14px;
+  box-shadow: 0px 1px 6px #00000029;
+  width: 160px;
+  min-width: 160px;
+  height: 40px;
+  margin: 0 20px;
+}
