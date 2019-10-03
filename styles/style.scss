@@ -1,19 +1,2 @@
 @charset "UTF-8";
-@import "variables";
 @import "reset";
-
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
-
-button {
-  height: 30px;
-  width: 100%;
-  background: $color-background 0% 0% no-repeat padding-box;
-  border: 1px solid $color-primary-dark;
-  border-radius: 4px;
-  opacity: 1;
-  color: $color-primary;
-  font-size: 16px;
-  line-height: 16px;
-}
