@@ -18,6 +18,37 @@ export default ({ title = "Frontend challenge", description = "Linx Impulse fron
     <style jsx global>{`
       body {
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: ${colors.primary}
+      }
+
+      h2, h3, h4, h5, h6 {
+        opacity: 1;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        font-size: 40px;
+        line-height: 49px;
+      }
+
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      h4 {
+        font-size: 18px;
+        line-height: 16px;
+      }
+
+      h5 {
+        font-size: 14px;
+        line-height: 16px;
+      }
+
+      h6 {
+        font-size: 12px;
+        line-height: 18px;
       }
 
       button {

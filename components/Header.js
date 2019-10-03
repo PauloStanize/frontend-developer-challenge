@@ -2,7 +2,7 @@ import { colors } from '../styles'
 
 export default (params) => (
   <header>
-    <h4>uma seleção de produtos</h4>
+    <h3>uma seleção de produtos</h3>
     <h2>especial para você</h2>
     <h5>Todos os produtos desta lista from selecionados a partir da sua navegação. Aproveite!</h5>
 
@@ -25,28 +25,16 @@ export default (params) => (
         height: 320px;
       }
 
-      h2, h4, h5 {
-        color: ${colors.secondary};
-        font-family: "Helvetica Neue";
-        opacity: 1;
-        letter-spacing: 0;
+      h2, h3, h5 {
+        color: ${colors.secondary}
       }
 
       h2 {
         font-weight: bold;
-        font-size: 40px;
-        line-height: 49px;
-      }
-
-      h4 {
-        font-size: 20px;
-        line-height: 24px;
       }
 
       h5 {
         margin-top: 24px;
-        font-size: 14px;
-        line-height: 16px;
       }
 
       .buttons {

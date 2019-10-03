@@ -2,9 +2,9 @@ import { colors } from '../styles'
 
 export default (params) => (
   <footer>
-    <h5>Testando suas habilidades em HTML, CSS e JS.</h5>
-    <h5>Linx Impulse 2019</h5>
-    <h5>2019</h5>
+    <h6>Testando suas habilidades em HTML, CSS e JS.</h6>
+    <h6>Linx Impulse 2019</h6>
+    <h6>2019</h6>
 
     <style jsx>{`
       footer {
@@ -19,13 +19,9 @@ export default (params) => (
         border: 1px solid ${colors.primaryDark};
       }
 
-      h5 {
+      h6 {
         color: ${colors.secondary};
         font-family: "Helvetica Neue";
-        opacity: 1;
-        letter-spacing: 0;
-        font-size: 12px;
-        line-height: 18px;
       }
     `}</style>
   </footer>
