@@ -3,6 +3,7 @@ require("dotenv").config()
 const withSass = require('@zeit/next-sass')
 
 module.exports = withSass({
+  target: 'serverless',
   webpack(config, options) {
     // Fixes npm packages that depend on `fs` module
     config.node = {

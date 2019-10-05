@@ -3,5 +3,10 @@
   "builds": [
     { "src": "package.json", "use": "@now/next" },
     { "src": "*.js", "use": "@now/node" }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": "3000",
+    "API_URL": "https://frontend-intern-challenge-api.iurykrieger.now.sh"
+  }
 }
