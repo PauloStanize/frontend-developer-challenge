@@ -20,7 +20,7 @@ const IndexPage = ({ products }) => {
   )
 }
 
-IndexPage.getInitialProps = async ({ query: { page } }) => {
+IndexPage.getInitialProps = async ({ query: { page = 1 } }) => {
   const response = await Axios.get(`${envConfig['apiUrl']}/products?page=${page}`)
   const { products } = response.data
 

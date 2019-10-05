@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@now/next" },
+    { "src": "*.js", "use": "@now/node" }
+  ],
+  "routes":[
+    {"src": "/(?<page>.+)", "dest": "index.js?page=$page"},
+    {"src": "/(.*)", "dest": "/$1"}
+  ]
+}

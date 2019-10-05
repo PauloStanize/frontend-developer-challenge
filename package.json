@@ -4,9 +4,10 @@
   "description": "> **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node index.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production node index.js",
+    "deploy": "now --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
