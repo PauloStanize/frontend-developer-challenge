@@ -73,7 +73,7 @@ const ProductCard = ({ id, name, image, oldPrice, price, description, installmen
 
 export default ({ products = [] }) => {
   const router = useRouter()
-  const { page: currentPage } = router.query
+  const { page: currentPage = 1 } = router.query
 
   return (
     <section>
