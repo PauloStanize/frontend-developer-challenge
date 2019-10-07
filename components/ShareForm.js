@@ -117,7 +117,6 @@ export default () => {
           background: ${colors.secondary};
           color: ${colors.primary};
           height: 550px;
-          margin-top: 50px;
         }
 
         h4 {
